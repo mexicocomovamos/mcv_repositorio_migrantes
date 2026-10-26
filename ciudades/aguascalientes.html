@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aguascalientes: empleo, formalidad e ingreso por sector y ocupación</title>
+<meta name="description" content="Ficha territorial de Aguascalientes: empleo, formalidad, crecimiento e ingreso por sector y ocupación, con datos de ENOE, IMSS, DENUE y Censos Económicos.">
+<link rel="canonical" href="https://mexicocomovamos.github.io/mcv_repositorio_migrantes/ciudades/aguascalientes.html">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon-180.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="México ¿Cómo Vamos?">
+<meta property="og:title" content="Aguascalientes: empleo, formalidad e ingreso por sector y ocupación">
+<meta property="og:description" content="Ficha territorial de Aguascalientes: empleo, formalidad, crecimiento e ingreso por sector y ocupación, con datos de ENOE, IMSS, DENUE y Censos Económicos.">
+<meta property="og:url" content="https://mexicocomovamos.github.io/mcv_repositorio_migrantes/ciudades/aguascalientes.html">
+<meta property="og:image" content="https://mexicocomovamos.github.io/mcv_repositorio_migrantes/assets/vista_previa.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root { --morado: #6950D8; --gris: #777777; --verde: #00B783;
+          --coral: #FF6260; --ambar: #FFBD41; --lila: #F2F0FB; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Ubuntu', 'Helvetica Neue', Arial, sans-serif;
+         color: #1a1a1a; background: #ffffff; }
+  .banda { background: var(--morado); color: white; padding: 28px 24px;
+           max-width: 1032px; margin: 24px auto 0; border-radius: 10px; }
+  .banda h1 { font-size: 40px; }
+  .banda p { font-size: 17px; opacity: 0.9; margin-top: 6px; }
+  main { max-width: 1080px; margin: 0 auto; padding: 28px 24px; }
+  h2 { color: var(--morado); font-size: 23px; margin-bottom: 6px; }
+  .lead { color: var(--gris); font-size: 14px; margin-bottom: 14px;
+          line-height: 1.45; }
+  .tarjetas { display: grid; grid-template-columns: repeat(4, 1fr);
+              gap: 14px; margin-bottom: 34px; }
+  .tarjeta { background: var(--lila); border-radius: 10px;
+             padding: 16px 18px; }
+  .tarjeta .valor { font-size: 28px; font-weight: 700;
+                    color: var(--morado); }
+  .tarjeta .etiqueta { font-size: 12.5px; color: var(--gris);
+                       margin-top: 4px; line-height: 1.35; }
+  .tarjeta.imss .valor { color: #1a1a1a; }
+  .grupo { font-size: 12px; font-weight: 700; letter-spacing: 0.06em;
+           color: var(--gris); text-transform: uppercase;
+           margin: 0 0 8px 2px; }
+  section { margin-bottom: 40px; }
+  section img { width: 100%; height: auto; border: 1px solid #eee;
+                border-radius: 8px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th { text-align: left; color: var(--gris); font-weight: 700;
+       border-bottom: 2px solid var(--morado); padding: 8px 6px;
+       vertical-align: bottom; }
+  td { border-bottom: 1px solid #e8e8e8; padding: 8px 6px; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  td.sd { color: #aaa; }
+  .ic { color: var(--gris); font-size: 12px; }
+  .notas { font-size: 12px; color: var(--gris); line-height: 1.5;
+           border-top: 1px solid #e8e8e8; padding-top: 16px; }
+  .notas p { margin-bottom: 6px; }
+
+  nav.sitio { max-width: 1032px; margin: 18px auto 0; padding: 0 4px;
+              display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center;
+              font-size: 14px; }
+  nav.sitio a { color: #6950D8; text-decoration: none; font-weight: 500; }
+  nav.sitio a:hover { text-decoration: underline; }
+  nav.sitio .marca { display: flex; align-items: center; gap: 10px; margin-right: auto; }
+  nav.sitio .marca img { height: 34px; width: auto; }
+  nav.sitio .ciudades { color: #777777; }
+  section.descargas ul { list-style: none; display: grid;
+                         grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+                         gap: 8px; margin: 10px 0 0; }
+  section.descargas li a { display: block; padding: 10px 12px; border: 1px solid #e6e4ef;
+                           border-radius: 8px; color: #1a1a1a; text-decoration: none; }
+  section.descargas li a:hover { border-color: #6950D8; }
+  footer.sitio { max-width: 1032px; margin: 20px auto 40px; padding: 0 24px;
+                 color: #777777; font-size: 13px; }
+  @media print { nav.sitio, section.descargas, footer.sitio { display: none; } }
+</style>
+</head>
+<body>
+<nav class="sitio"><a class="marca" href="../index.html"><img src="../assets/logo_mcv.png" alt="México ¿Cómo Vamos?">Integración laboral de población migrante en México</a><span class="ciudades"><a href="acapulco.html">← Acapulco</a> · <a href="../index.html#fichas">Todas las ciudades</a> · <a href="campeche.html">Campeche →</a></span></nav>
+<div class='banda'>
+  <h1>Aguascalientes</h1>
+  <p>Integración · Ciudades grandes y en expansión, 2019-2026 · ENOE, IMSS y Censos Económicos</p>
+</div>
+<main>
+  <p class='grupo'>Población ocupada (ENOE, 2026-T1)</p>
+  <div class='tarjetas'>
+    <div class='tarjeta'><div class='valor'>490,890</div>
+      <div class='etiqueta'>Personas ocupadas de 15 años y más</div></div>
+    <div class='tarjeta'><div class='valor'>39.6%</div>
+      <div class='etiqueta'>Tasa de informalidad laboral</div></div>
+    <div class='tarjeta'><div class='valor'>13.7%</div>
+      <div class='etiqueta'>Variación de ocupados 2022-2026 (intervalo de 6.6 a 20.8)</div></div>
+    <div class='tarjeta'><div class='valor'>$12,921</div>
+      <div class='etiqueta'>Ingreso mensual medio de ocupados remunerados, imputado por hot-deck (2025-T2 a 2026-T1)</div></div>
+  </div>
+  <p class='grupo'>Empleo formal (IMSS, mayo de 2026)</p>
+  <div class='tarjetas'>
+    <div class='tarjeta imss'><div class='valor'>338,330</div>
+      <div class='etiqueta'>Puestos de trabajo asegurados</div></div>
+    <div class='tarjeta imss'><div class='valor'>5.4%</div>
+      <div class='etiqueta'>Variación de puestos 2022-2026 (10.0% desde 2019)</div></div>
+    <div class='tarjeta imss'><div class='valor'>$654</div>
+      <div class='etiqueta'>Salario diario real asociado, pesos de mayo de 2026</div></div>
+    <div class='tarjeta imss'><div class='valor'>6.9%</div>
+      <div class='etiqueta'>Puestos eventuales</div></div>
+  </div>
+
+  <section>
+    <h2>Crecimiento del empleo en tres ventanas: ENOE e IMSS</h2>
+    <p class='lead'>Personas ocupadas (formales e informales) en el primer trimestre de cada año contra puestos asegurados en mayo. La ENOE lleva su intervalo de confianza al 95%; el IMSS es un registro administrativo y no tiene error muestral.</p>
+    <table>
+      <thead><tr>
+        <th>Ventana</th>
+        <th class='num'>Ocupados ENOE, inicio</th>
+        <th class='num'>Ocupados ENOE, 2026</th>
+        <th class='num'>Variación ENOE</th>
+        <th class='num'>Puestos IMSS, inicio</th>
+        <th class='num'>Puestos IMSS, 2026</th>
+        <th class='num'>Variación IMSS</th>
+      </tr></thead>
+      <tbody>
+      <tr><td>2015-2026</td><td class='num'>348,923</td><td class='num'>490,890</td><td class='num'>40.7%<span class='ic'> (32.1 a 49.2)</span></td><td class='num'>247,587</td><td class='num'>338,330</td><td class='num'>36.7%</td></tr>
+<tr><td>2019-2026</td><td class='num'>405,317</td><td class='num'>490,890</td><td class='num'>21.1%<span class='ic'> (13.9 a 28.4)</span></td><td class='num'>307,506</td><td class='num'>338,330</td><td class='num'>10.0%</td></tr>
+<tr><td>2022-2026</td><td class='num'>431,695</td><td class='num'>490,890</td><td class='num'>13.7%<span class='ic'> (6.6 a 20.8)</span></td><td class='num'>320,899</td><td class='num'>338,330</td><td class='num'>5.4%</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section><h2>Qué sectores crecen y con qué formalidad</h2><img src="aguascalientes/sector_tamano.png" alt="Aguascalientes: Tamaño y crecimiento de los sectores" loading="lazy"></section>
+  <section><img src="aguascalientes/sector_crecimiento_informalidad.png" alt="Aguascalientes: Crecimiento e informalidad por sector" loading="lazy"></section>
+  <section><img src="aguascalientes/sector_ingreso.png" alt="Aguascalientes: Ingreso por sector" loading="lazy"></section>
+  <section><h2>Qué ocupaciones crecen y con qué barrera de entrada</h2><p class='lead'>Puertas de absorción inmediata (crecen, sin credencial, informalidad en el promedio nacional o mayor): <b>comerciantes, servicios personales</b>. Puertas de integración (crecen, sin credencial, informalidad menor al promedio): <b>industriales, artesanos y ayudantes, oficinistas, operadores de transporte, protección y vigilancia, agropecuarios</b>.</p><img src="aguascalientes/ocupacion_tamano.png" alt="Aguascalientes: Tamaño y crecimiento de los grupos de ocupación" loading="lazy"></section>
+  <section><img src="aguascalientes/ocupacion_crecimiento_informalidad.png" alt="Aguascalientes: Crecimiento e informalidad por ocupación" loading="lazy"></section>
+  <section><img src="aguascalientes/ocupacion_ingreso.png" alt="Aguascalientes: Ingreso por ocupación" loading="lazy"></section>
+  <section><h2>De qué está hecha la economía de la ciudad</h2><p class='lead'>Unidades económicas y personal ocupado por subsector, Censos Económicos 2024.</p><img src="aguascalientes/economia_composicion.png" alt="Aguascalientes: Composición de la economía (Censos Económicos y DENUE)" loading="lazy"></section>
+
+  <div class='notas'>
+    <p><b>Crecimiento y formalidad:</b> el crecimiento compara los primeros trimestres de 2022 y 2026; la informalidad de cada sector y ocupación se estima con los cuatro trimestres de 2025-T2 a 2026-T1 para ganar precisión, y se compara con la de la ciudad medida igual. Se omiten las celdas con menos de 30 entrevistas en alguno de los dos años. La barrera de entrada de cada ocupación se clasifica a escala nacional por la escolaridad de quienes la desempeñan: credencial requerida si la mitad o más tiene educación superior, formación media si la mitad o más tiene media superior, entrada inmediata en el resto.</p>
+    <p><b>Ingreso:</b> ingreso mensual de la ocupación principal de los ocupados remunerados, con la no respuesta resuelta por rangos salariales y hot-deck (método del repositorio MCV-Oxfam de informalidad), en pesos corrientes de 2025-T2 a 2026-T1. Media con diseño muestral; se omiten las celdas con menos de 30 casos.</p>
+    <p><b>IMSS:</b> puestos de trabajo asegurados al 31 de mayo de cada año, salario diario asociado deflactado con el INPC a pesos de mayo de 2026. La ENOE cuenta personas y el IMSS puestos, así que los niveles no son comparables entre sí; las variaciones sí.</p>
+    <p><b>Fuentes:</b> INEGI, ENOE (microdatos, primeros trimestres de 2015 a 2026 y base acumulada 2025-T2 a 2026-T1) y Censos Económicos 2024; IMSS, datos abiertos de puestos asegurados (2015-2026); Banxico, INPC. Elaboración propia.</p>
+  </div>
+
+  <section class="descargas">
+    <h2>Descargas</h2>
+    <p class="lead">Las gráficas de esta ficha en PNG. La ficha completa se imprime desde el navegador (Archivo > Imprimir, guardar como PDF).</p>
+    <ul><li><a href="aguascalientes/sector_tamano.png" download>Tamaño y crecimiento de los sectores</a></li><li><a href="aguascalientes/sector_crecimiento_informalidad.png" download>Crecimiento e informalidad por sector</a></li><li><a href="aguascalientes/sector_ingreso.png" download>Ingreso por sector</a></li><li><a href="aguascalientes/ocupacion_tamano.png" download>Tamaño y crecimiento de los grupos de ocupación</a></li><li><a href="aguascalientes/ocupacion_crecimiento_informalidad.png" download>Crecimiento e informalidad por ocupación</a></li><li><a href="aguascalientes/ocupacion_ingreso.png" download>Ingreso por ocupación</a></li><li><a href="aguascalientes/economia_composicion.png" download>Composición de la economía (Censos Económicos y DENUE)</a></li></ul>
+  </section>
+</main>
+<footer class="sitio">Integración laboral de población migrante en México · México ¿Cómo Vamos? · <a href="../index.html">Portada</a> · Sitio generado el 26 de octubre de 2026.</footer>
+</body>
+</html>
